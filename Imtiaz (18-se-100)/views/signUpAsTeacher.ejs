@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/formsStyling.css">
+</head>
+<body>
+    <%- include('./partials/navbar.ejs')%>
+
+    <section class="login-container">
+        <h1>SIGN UP AS TEACHER</h1>
+        <form action="" class="login-form">
+            <label for="username">USERNAME</label> <br>
+            <input type="text" id="username"> <br>
+            <label for="emil">EMAIL</label> <br>
+            <input type="email" id="email"> <br>
+            <label for="CNIC">CNIC</label> <br>
+            <input type="text" id="CNIC"> <br>
+            <label for="INSTITUTE">INSTITUTE</label> <br>
+            <input type="text" id="INSTITUTE"> <br>
+            <label for="regestrationNo">ID</label> <br>
+            <input type="text" id="regestrationNo"> <br>
+            <label for="password">PASSWORD</label> <br>
+            <input type="password" id="password"><br>
+            <label for="confirmPassword">CONFIRM PASSWORD</label> <br>
+            <input type="password" id="confirmPassword"> <br>
+            <input type="button" value="submit">
+        </form>
+    </section>
+</body>
+</html>
